@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --first-color: #252525;
+  /* Темно-сірий */
+  --second-color: #3A99CE;
+  /* Світло-синій */
+  --third-color: #DCDCDC;
+  /* Світло-сірий */
+  --fourth-color: #FFFFFF;
+  /* Білий */
+}

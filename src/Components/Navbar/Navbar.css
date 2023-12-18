@@ -17,7 +17,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 1em;
-    background-color:#eecccc;
+    background-color:var(--third-color);
+    position: relative;
+    z-index: 10;
 }
 
 .nav-links {
@@ -39,7 +41,7 @@
 }
 
 .nav-item {
-    color: #FFF;
+    color: var(--fourth-color);
     font-family: Gotham, sans-serif;
     font-size: 32px;
     font-style: normal;
@@ -59,7 +61,7 @@
             bottom: 0;
             width: 100%;
             height: 2px;
-            background-color: #FFF;
+            background-color: var(--fourth-color);
             transform: scaleX(0);
             transform-origin: bottom left;
             transition: transform 0.3s ease-in-out;
@@ -75,7 +77,7 @@
             top: 30px;
             right: 30px;
             background: transparent;
-            border: 1px solid #FFF;
+            border: 1px solid var(--fourth-color);
             padding: 5px;
             border-radius: 50%;
             width: 30px;
@@ -96,7 +98,7 @@
 @media screen and (min-width: 768px) {
 
     .navbar {
-            background-color: #2f2828f6;
+            background-color: transparent;
         }
 
     .menu-button,
@@ -132,7 +134,7 @@
         }
 
         .nav-item {
-            color: #FFF;
+            color: var(--fourth-color);
             font-family: Gotham, sans-serif;
             font-size: 24px;
             font-style: normal;
@@ -152,7 +154,7 @@
             bottom: 0;
             width: 100%;
             height: 2px;
-            background-color: #FFF;
+            background-color: var(--fourth-color);
             transform: scaleX(0);
             transform-origin: bottom left;
             transition: transform 0.3s ease-in-out;
@@ -179,12 +181,12 @@
             margin-left: auto;
             margin-right: 5px;
             border-radius: 15px;
-            border: 1px solid #FFF;
+            border: 1px solid var(--fourth-color);
             cursor: pointer;
         }
 
         .button-contact:hover {
-            color: #FFF;
+            color: var(--fourth-color);
             background: rgb(138, 56, 56);
             scale: 1.1;
         }
