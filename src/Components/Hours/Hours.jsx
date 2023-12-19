@@ -4,8 +4,8 @@ import './Hours.css'
 export const Hours = () => {
   return (
     <div className='hours'>
-          <h1 className='hours-title'>HOURS</h1>
           <ul className='hours-tab'>
+          <h1 className='hours-title'>HOURS</h1>
               <li className='hours-tab-item'>
                   <p>MON - THU</p>
                   <p>08:00 AM - 19:30 PM</p>

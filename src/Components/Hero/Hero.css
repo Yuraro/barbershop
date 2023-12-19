@@ -91,11 +91,12 @@
 
         .hero-content {
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: flex-start;
+            align-items: flex-start;
             flex-direction: column;
             margin-top: 150px;
             margin-left: 30px;
+            margin-right: auto;
         }
 
         .hero-content-title {
