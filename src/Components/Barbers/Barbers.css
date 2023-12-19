@@ -52,30 +52,19 @@
 
 .barbers-name {
     color: var(--first-color);
-    /* A modern, neutral color */
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    /* A clean, modern font-family */
     font-size: 1.5rem;
-    /* A larger font-size for prominence */
     font-weight: bold;
-    /* Make the name stand out */
     text-transform: uppercase;
-    /* Uppercase letters for a more graphic, editorial look */
     letter-spacing: 0.05em;
-    /* Increase letter-spacing for better readability in uppercase */
     margin: 0.5em 0;
-    /* Add some vertical spacing */
     text-align: center;
-    /* Center-align the name for balance */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-    /* Optional: a subtle text shadow for depth */
     transition: color 0.3s ease;
-    /* Transition for hover effects */
 }
 
 .barbers-name:hover {
     color: #5a5a5a;
-    /* Change color on hover for interactive feedback */
 }
 
 .barber-btn{
