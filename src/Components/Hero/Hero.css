@@ -1,5 +1,5 @@
 .hero {
-    position: fixed;
+    position: absolute;
     background-image: url('../Assets/hero-background-mob.png');
     top: 0;
     right: 0;
@@ -143,6 +143,8 @@
         }
 
         .hero-content-btn {
-            margin-top: 70px;
+            margin-top: auto;
+            margin-bottom: 50px;
+            flex-shrink: 0;
         }
 }

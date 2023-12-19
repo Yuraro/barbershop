@@ -1,0 +1,14 @@
+
+.home-container {
+    padding-top: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .home-container {
+            padding-top: 85vh;
+        }
+}
