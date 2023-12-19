@@ -9,6 +9,7 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .hero::after {
@@ -27,7 +28,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 120px;
+    margin-top: 80px;
     margin-left: 20px;
     margin-right: 20px;
     position: absolute;
@@ -61,7 +62,7 @@
     flex-shrink: 0;
     border-radius: 18px;
     background: var(--second-color);
-    margin-top: 80px;
+    margin-bottom: auto;
     padding-bottom: 5px;
 
     color: var(--fourth-color);
@@ -97,10 +98,11 @@
             margin-top: 150px;
             margin-left: 30px;
             margin-right: auto;
+            margin-bottom: 50px;
         }
 
         .hero-content-title {
-            font-size: 110px;
+            font-size: 100px;
             font-weight: 800;
         }
                 .hero-content-title span{
@@ -110,7 +112,7 @@
         
         .hero-content-btn {
             width: 542px;
-            height: 111px;
+            height: 100px;
             flex-shrink: 0;
 
             color: var(--fourth-color);
@@ -129,9 +131,9 @@
 }
 
 @media screen and (min-width: 1200px) {
-/*     .hero{
-        height: 1074px;
-    } */
+        .hero-content {
+            margin-bottom: 100px;
+        }
 
     .hero-content-title {
             font-size: 150px;

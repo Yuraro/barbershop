@@ -17,7 +17,22 @@ const all_barbers = [
     id: 3,
     name:'Taras',
     img: barber_3,
-}
+},
+{
+    id: 4,
+    name:'Alex',
+    img: barber_1,
+},
+{
+    id: 5,
+    name:'Yuriy',
+    img: barber_2,
+    },
+{
+    id: 6,
+    name:'Sergii',
+    img: barber_3,
+},
 ]
 
    export default all_barbers;

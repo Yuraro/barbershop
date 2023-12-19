@@ -6,7 +6,7 @@
     height: 100%;
     flex-shrink: 0;
     background: var(--third-color);
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 .barbers-wrap{
     width: 100%;
@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 67px;
+    gap: 50px;
 }
 .barbers-title{
     color: #252525;
@@ -50,9 +50,71 @@
     transform: translateX(20px);
 }
 
+.barbers-name {
+    color: var(--first-color);
+    /* A modern, neutral color */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    /* A clean, modern font-family */
+    font-size: 1.5rem;
+    /* A larger font-size for prominence */
+    font-weight: bold;
+    /* Make the name stand out */
+    text-transform: uppercase;
+    /* Uppercase letters for a more graphic, editorial look */
+    letter-spacing: 0.05em;
+    /* Increase letter-spacing for better readability in uppercase */
+    margin: 0.5em 0;
+    /* Add some vertical spacing */
+    text-align: center;
+    /* Center-align the name for balance */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    /* Optional: a subtle text shadow for depth */
+    transition: color 0.3s ease;
+    /* Transition for hover effects */
+}
+
+.barbers-name:hover {
+    color: #5a5a5a;
+    /* Change color on hover for interactive feedback */
+}
+
 .barber-btn{
     height: 62px;
     flex-shrink: 0;
     position: absolute;
-    margin-top: 380px;
+    margin-top: 330px;
+}
+
+@media screen and (min-width: 768px) {
+    .barbers {
+            padding-bottom: 90px;
+        }
+        .barbers-title {
+            font-size: 70px;
+        }
+    .barbers-wrap-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 15px;
+    }
+        .barber-btn {
+            height: 82px;
+            margin-top: 375px;
+        }
+}
+@media screen and (min-width: 1200px) {
+    .barbers{
+        padding-bottom: 160px;
+    }
+        .barbers-title {
+            font-size: 90px;
+        }
+    .barbers-wrap-img {
+        gap: 25px;
+    }
+        .barber-btn {
+            margin-top: 421px;
+        }
 }

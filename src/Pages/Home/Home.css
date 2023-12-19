@@ -1,6 +1,6 @@
 
 .home-container {
-    padding-top: 89vh;
+    padding-top: 87vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,12 +9,12 @@
 
 @media screen and (min-width: 768px) {
     .home-container {
-            padding-top: 85vh;
+            padding-top: 81vh;
         }
 }
 
 @media screen and (min-width: 1200px) {
     .home-container {
-        padding-top: 83vh;
+        padding-top: 82vh;
     }
 }
