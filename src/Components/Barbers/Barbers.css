@@ -72,6 +72,7 @@
     flex-shrink: 0;
     position: absolute;
     margin-top: 330px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {

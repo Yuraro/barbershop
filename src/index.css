@@ -22,3 +22,11 @@ code {
   --fourth-color: #FFFFFF;
   /* Білий */
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+a[href*="#"] {
+  scroll-behavior: smooth;
+}

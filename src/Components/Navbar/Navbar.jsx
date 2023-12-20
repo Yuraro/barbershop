@@ -18,10 +18,10 @@ export const Navbar = () => {
             
             <div className={`nav-links ${isOpen ? "open" : ""}`}>
                 <img src={closeButton} alt="Close" className="close-button" onClick={() => setIsOpen(false)} />
-                <Link to="/" className='nav-item'>Home</Link>
-                <Link to="/appointment" className='nav-item'>Appointment</Link>
-                <a href="#barbers" className='nav-item'>Barbers</a> 
-                <a href="#price" className='nav-item'>Price</a>
+                <Link to="/" className='nav-item' onClick={() => setIsOpen(false)}>Home</Link>
+                <Link to="/appointment" className='nav-item' onClick={() => setIsOpen(false)}>Appointment</Link>
+                <a href="#barbers" className='nav-item' onClick={() => setIsOpen(false)}>Barbers</a> 
+                <a href="#price" className='nav-item' onClick={() => setIsOpen(false)}>Price</a>
             </div>
             <button className='button-contact'>Contact</button>
         </div>

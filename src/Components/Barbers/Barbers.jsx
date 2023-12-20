@@ -46,7 +46,7 @@ export const Barbers = () => {
 
 
     return (
-        <div className='barbers'>
+        <div className='barbers' id="barbers">
             <div className='barbers-wrap'>
                 <h1 className='barbers-title'>BARBERS</h1>
                 <div className='barbers-wrap-img'>
@@ -55,7 +55,6 @@ export const Barbers = () => {
                             <img key={barber.id} src={barber.img} alt={barber.name} className={`barbers-img ${animationState}`} />
                             <p className='barbers-name'>{barber.name}</p>
                         </div>
-                        
                 ))}
                 </div>
             </div>
